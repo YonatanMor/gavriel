@@ -3,7 +3,6 @@ import Privacy from "./Privacy"; // Import your Privacy component
 
 function App() {
   return (
-    
     <Router>
       <div className="w-screen">
         <div className="h-[57px] flex items-end bg-[#00AEEF]">
@@ -44,9 +43,10 @@ function App() {
               </div>
             </div>
             <img
+              style={{ width: "10px" }}
               src="get-started-white.svg"
               alt="get-started-white"
-              className="absolute left-50 top-39 w-[10px]"
+              className="absolute left-50 top-39"
             />
           </div>
         </div>
