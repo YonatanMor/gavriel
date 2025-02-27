@@ -38,6 +38,11 @@ function App() {
               </span>
             </div>
           </div>
+          <img
+            src="get-started-white.svg"
+            alt="get-started-white"
+            className="absolute left-48 top-38"
+          />
         </div>
       </div>
       <div className="my-4 mx-4">
@@ -60,7 +65,7 @@ function App() {
         </div>
       </div>
 
-      <div className="relative flex items-center h-[41px]">
+      <div className="relative my-6 flex items-center h-[41px]">
         <a href="">
           <img
             src="get-started-btn.svg"
@@ -75,20 +80,80 @@ function App() {
         <div className="mx-2 mt-4">
           <span className="text-[21px] leading-tight">Where's The Proof? </span>
           <p className="mt-2">
-            Unlike other brain training sites, we believe in a well rounded
-            approach. Not only do we offer the best variety of brain training
-            games, we also offer advice and insights that go beyond just
-            exercises such as book club suggestions, lifestyle articles, dietary
-            tips and recommendations for foods that also help your brain
-            function at its best. Don't just join a game site, join our
-            community and enjoy newly added games, app suggestions, and
-            challenge yourself to become better both online and in real life.
-            Soon these new reasoning skills and quick recall will benefit you
-            and how you function everyday. Regardless of why you are here, the
-            success of brain exercises relies on 3 things: 1. It's New 2. It's
-            Challenging 3. It's Fun!
+            There are numerous articles online, documentaries created, TV series
+            on the topic, and scientific research published that show the
+            positive benefits of brain training and mind exercises. However, if
+            you still aren't sure, MentalGameTime.com offers a 30 day risk free
+            trial period. If you are not happy with our site, just let us know
+            and we will cancel and refund your first month's membership fee, no
+            questions asked!
           </p>
         </div>
+      </div>
+
+      <img src="maze.svg" alt="maze" className="my-10" />
+
+      <div className="mt-4 mx-4">
+        <div className="mx-2 mt-4">
+          <span className="text-[21px] leading-tight">
+            Keep Your Mind in Shape
+          </span>
+          <p className="mt-2">
+            The MentalGameTime.com exercises are designed to stimulate your
+            brain. Solving simple math and logic problems quickly, and reading
+            aloud have been proven to be effective methods of achieving this
+            goal. Baby Boomers and test-prepping school kids alike want to
+            challenge themselves and find ways to stay sharp. MentalGameTime.com
+            acts like a treadmill for the mind. MentalGameTime.com presents
+            quick mental activities that help keep your mind in shape.
+            Activities include solving simple math problems, simultaneous
+            counting, finding differences between images, reading classic
+            literature out loud, memorization and recall activities and more.
+            You can also play fun games like Sudoku, the number puzzle game
+            which has become an extremely popular feature in U.S. Newspapers, as
+            well as crossword and word search. We all know as we grow older our
+            bodies change and it becomes important to regularly exercise to
+            maintain health and fitness. Our minds are no different. "Use it or
+            lose it," as the saying goes. New research indicates mental acuity
+            may be strengthened, like muscles, with brain exercises. And these
+            exercises must be done regularly to retain the benefits long term.
+          </p>
+        </div>
+      </div>
+
+      <div className="relative my-6 flex items-center h-[41px]">
+        <a href="">
+          <img
+            src="get-started-btn.svg"
+            alt="get-started-btn"
+            className="absolute top-0 left-0 right-0 mx-auto z-100"
+          />
+        </a>
+        <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
+      </div>
+
+      <div className="flex items-center bg-[#00AEEF] px-4 h-[41px]">
+        <ul className="flex justify-center gap-1 text-[11px]">
+          <li>Home</li>
+          <li>|</li>
+          <li>Members Area</li>
+          <li>|</li>
+          <li>Terms & Conditions</li>
+          <li>|</li>
+          <li>Privacy</li>
+          <li>|</li>
+          <li>Billing Support</li>
+        </ul>
+      </div>
+
+      <div className="mx-6 leading-6 text-[12px] text-center mt-4 mb-10">
+        <span className="">
+          © Copyright 2025 Wheeler Solutions, LLC All Rights Reserved
+        </span>
+        <br />
+        <span>Wheeler Solutions, LLC 1262 Route 206 Shamong, NJ 08088</span>
+        <br />
+        <span>Copyright © 2018 MentalGameTime.com</span>
       </div>
     </div>
   );
