@@ -141,7 +141,7 @@ function App() {
         </div>
 
         <div className="flex items-center bg-[#00AEEF] px-4 h-[41px]">
-          <ul className="flex justify-center gap-1 text-[11px]">
+          <ul className="flex justify-center gap-1 text-[9px]">
             <li>
               <Link to="/">Home</Link>
             </li>
