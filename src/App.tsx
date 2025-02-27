@@ -139,7 +139,7 @@ function App() {
           <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
         </div>
 
-        <div className="flex items-center bg-[#00AEEF] px-4 h-[41px]">
+        <div className="flex justify-center items-center bg-[#00AEEF] px-4 h-[41px]">
           <ul className="flex justify-center gap-1 text-[9px]">
             <li>
               <Link to="/">Home</Link>
