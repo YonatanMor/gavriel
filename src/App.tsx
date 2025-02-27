@@ -46,7 +46,7 @@ function App() {
             <img
               src="get-started-white.svg"
               alt="get-started-white"
-              className="absolute left-48 top-38 w-36"
+              className="absolute left-48 top-38 w-16"
             />
           </div>
         </div>
