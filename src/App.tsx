@@ -163,7 +163,7 @@ function App() {
           </ul>
         </div>
 
-        <div className="mx-6 leading-6 text-[12px] text-center mt-4 mb-10">
+        <div className="mx-6 leading-6 text-[10px] text-center mt-4 mb-10">
           <span className="">
             © Copyright 2025 Wheeler Solutions, LLC All Rights Reserved
           </span>
