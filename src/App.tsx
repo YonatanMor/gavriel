@@ -43,10 +43,9 @@ function App() {
               </div>
             </div>
             <img
-              style={{ width: "10px" }}
               src="get-started-white.svg"
               alt="get-started-white"
-              className="absolute left-50 top-39"
+              className="absolute left-[100px] top-48 w-39"
             />
           </div>
         </div>
