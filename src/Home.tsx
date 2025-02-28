@@ -1,4 +1,8 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
+// why the diff of size in the header nav manu?
+// when build/deploy/commit+push
+// router jams up the application
 
 export default function Home() {
   return (
@@ -27,6 +31,21 @@ export default function Home() {
         <div className="flex items-center mb-[8px]">
           <ul className="flex justify-center mx-10 gap-10 text-[19px]">
             <li>
+              Home
+            </li>
+            <li>
+              Members Area
+            </li>
+            <li>
+              Terms & Conditions
+            </li>
+            <li>
+              Privacy
+            </li>
+            <li>
+              Billing Support
+            </li>
+            {/* <li>
               <Link to="/">Home</Link>
             </li>
             <li>
@@ -40,7 +59,7 @@ export default function Home() {
             </li>
             <li>
               <Link to="/billing-support">Billing Support</Link>
-            </li>
+            </li> */}
           </ul>
           {/* <div className="flex h-40 items-center ml-8 bg-red-600"> */}
           <img src="desktop/join-header-btn.svg" alt="" className="mt-2 mx-2" />
