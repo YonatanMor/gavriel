@@ -1,17 +1,17 @@
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./Home";
-// import Privacy from "./Privacy"; // Import your Privacy homecomponent
+import Privacy from "./Privacy"; // Import your Privacy homecomponent
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/privacy" element={<Privacy />} /> */}
+        <Route path="/gavriel" element={<Home />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
 
       <div className="flex justify-center items-center bg-[#00AEEF] px-4 h-[41px] md:h-[93px]">
-        <ul className="flex justify-center gap-1 text-[9px] md:text-xl md:gap-10">
+        <ul className="flex justify-center gap-1 text-[9px] md:text-xl md:gap-6">
           <li>
             <Link to="/">Home</Link>
           </li>
