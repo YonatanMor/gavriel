@@ -197,39 +197,7 @@ export default function Home() {
         <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
       </div>
 
-      {/* <div className="flex justify-center items-center bg-[#00AEEF] px-4 h-[41px]">
-          <ul className="flex justify-center gap-1 text-[9px]">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>|</li>
-            <li>
-              <Link to="/members">Members Area</Link>
-            </li>
-            <li>|</li>
-            <li>
-              <Link to="/terms">Terms & Conditions</Link>
-            </li>
-            <li>|</li>
-            <li>
-              <Link to="/privacy">Privacy</Link>
-            </li>
-            <li>|</li>
-            <li>
-              <Link to="/billing-support">Billing Support</Link>
-            </li>
-          </ul>
-        </div> */}
-
-      <div className="mx-6 leading-6 text-[10px] text-center mt-4 mb-10">
-        <span className="">
-          © Copyright 2025 Wheeler Solutions, LLC All Rights Reserved
-        </span>
-        <br />
-        <span>Wheeler Solutions, LLC 1262 Route 206 Shamong, NJ 08088</span>
-        <br />
-        <span>Copyright © 2018 MentalGameTime.com</span>
-      </div>
+      
 
       {/* Define Routes */}
     </div>
