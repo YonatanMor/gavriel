@@ -54,6 +54,7 @@ export default function Home() {
         {/* </div> */}
       </div>
 
+      {/* hero */}
       <div>
         <div className="relative">
           <img src="hero.svg" alt="hero mobile" className="block md:hidden" />
@@ -110,96 +111,180 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="my-4 mx-4">
-        <img src="chalkboard.svg" alt="chalkboard" />
-        <div className="mx-2 mt-4">
-          <span className="text-[21px] leading-tight">
-            This is why MentalGameTime
-          </span>
-          <br />
-          <span className="text-[21px] leading-tight">is right for you.</span>
-          <p className="mt-2">
-            There are numerous articles online, documentaries created, TV series
-            on the topic, and scientific research published that show the
-            positive benefits of brain training and mind exercises. However, if
-            you still aren't sure, MentalGameTime.com offers a 30 day risk free
-            trial period. If you are not happy with our site, just let us know
-            and we will cancel and refund your first month's membership fee, no
-            questions asked!
-          </p>
+      {/* content mobile*/}
+      <div className="block md:hidden">
+        <div className="my-4 mx-4">
+          <img src="chalkboard.svg" alt="chalkboard" />
+          <div className="mx-2 mt-4">
+            <span className="text-[21px] leading-tight">
+              This is why MentalGameTime
+            </span>
+            <br />
+            <span className="text-[21px] leading-tight">is right for you.</span>
+            <p className="mt-2">
+              There are numerous articles online, documentaries created, TV
+              series on the topic, and scientific research published that show
+              the positive benefits of brain training and mind exercises.
+              However, if you still aren't sure, MentalGameTime.com offers a 30
+              day risk free trial period. If you are not happy with our site,
+              just let us know and we will cancel and refund your first month's
+              membership fee, no questions asked!
+            </p>
+          </div>
+        </div>
+        <div className="relative my-6 flex items-center h-[41px]">
+          <a href="">
+            <img
+              src="get-started-btn.svg"
+              alt="get-started-btn"
+              className="absolute top-0 left-0 right-0 mx-auto z-100"
+            />
+          </a>
+          <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
+        </div>
+        <div className="mt-4 mx-4">
+          <div className="mx-2 mt-4">
+            <span className="text-[21px] leading-tight">
+              Where's The Proof?{" "}
+            </span>
+            <p className="mt-2">
+              There are numerous articles online, documentaries created, TV
+              series on the topic, and scientific research published that show
+              the positive benefits of brain training and mind exercises.
+              However, if you still aren't sure, MentalGameTime.com offers a 30
+              day risk free trial period. If you are not happy with our site,
+              just let us know and we will cancel and refund your first month's
+              membership fee, no questions asked!
+            </p>
+          </div>
+        </div>
+        <img src="maze.svg" alt="maze" className="my-10" />
+        <div className="mt-4 mx-4">
+          <div className="mx-2 mt-4">
+            <span className="text-[21px] leading-tight">
+              Keep Your Mind in Shape
+            </span>
+            <p className="mt-2">
+              The MentalGameTime.com exercises are designed to stimulate your
+              brain. Solving simple math and logic problems quickly, and reading
+              aloud have been proven to be effective methods of achieving this
+              goal. Baby Boomers and test-prepping school kids alike want to
+              challenge themselves and find ways to stay sharp.
+              MentalGameTime.com acts like a treadmill for the mind.
+              MentalGameTime.com presents quick mental activities that help keep
+              your mind in shape. Activities include solving simple math
+              problems, simultaneous counting, finding differences between
+              images, reading classic literature out loud, memorization and
+              recall activities and more. You can also play fun games like
+              Sudoku, the number puzzle game which has become an extremely
+              popular feature in U.S. Newspapers, as well as crossword and word
+              search. We all know as we grow older our bodies change and it
+              becomes important to regularly exercise to maintain health and
+              fitness. Our minds are no different. "Use it or lose it," as the
+              saying goes. New research indicates mental acuity may be
+              strengthened, like muscles, with brain exercises. And these
+              exercises must be done regularly to retain the benefits long term.
+            </p>
+          </div>
+        </div>
+        <div className="relative my-6 flex items-center h-[41px]">
+          <a href="">
+            <img
+              src="get-started-btn.svg"
+              alt="get-started-btn"
+              className="absolute top-0 left-0 right-0 mx-auto z-100"
+            />
+          </a>
+          <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
         </div>
       </div>
 
-      <div className="relative my-6 flex items-center h-[41px]">
-        <a href="">
-          <img
-            src="get-started-btn.svg"
-            alt="get-started-btn"
-            className="absolute top-0 left-0 right-0 mx-auto z-100"
-          />
-        </a>
-        <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
-      </div>
+      {/* content desktop */}
+      <div className="hidden justify-around md:flex">
+        <div className="flex flex-col gap-4 w-[30%] mt-10">
+          <img src="chalkboard.svg" alt="chalkboard" className="w-full object-cover" />
 
-      <div className="mt-4 mx-4">
-        <div className="mx-2 mt-4">
-          <span className="text-[21px] leading-tight">Where's The Proof? </span>
-          <p className="mt-2">
-            There are numerous articles online, documentaries created, TV series
-            on the topic, and scientific research published that show the
-            positive benefits of brain training and mind exercises. However, if
-            you still aren't sure, MentalGameTime.com offers a 30 day risk free
-            trial period. If you are not happy with our site, just let us know
-            and we will cancel and refund your first month's membership fee, no
-            questions asked!
-          </p>
+          <div className="mt-10 ">
+            <div className="mx-2 mt-4">
+              <span className="text-3xl leading-tight">
+                This is why Mental Game Time
+              </span>
+              <br />
+              <span className="text-3xl leading-tight">is right for you.</span>
+              <p className="mt-2 text-lg">
+                There are numerous articles online, documentaries created, TV
+                series on the topic, and scientific research published that show
+                the positive benefits of brain training and mind exercises.
+                However, if you still aren't sure, MentalGameTime.com offers a
+                30 day risk free trial period. If you are not happy with our
+                site, just let us know and we will cancel and refund your first
+                month's membership fee, no questions asked!
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-4 ">
+            <div className="mx-2 mt-4">
+              <span className="text-3xl leading-tight">
+                Where's The Proof?{" "}
+              </span>
+              <p className="mt-2 text-lg">
+                There are numerous articles online, documentaries created, TV
+                series on the topic, and scientific research published that show
+                the positive benefits of brain training and mind exercises.
+                However, if you still aren't sure, MentalGameTime.com offers a
+                30 day risk free trial period. If you are not happy with our
+                site, just let us know and we will cancel and refund your first
+                month's membership fee, no questions asked!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-[60%]">
+          <img src="desktop/maze.svg" alt="maze" className="my-10 w-full object-cover" />
+          <div className="mt-4">
+            <div className=" mt-4">
+              <span className="text-3xl leading-tight">
+                Keep Your Mind in Shape
+              </span>
+              <p className="mt-2 text-lg ">
+                The MentalGameTime.com exercises are designed to stimulate your
+                brain. Solving simple math and logic problems quickly, and
+                reading aloud have been proven to be effective methods of
+                achieving this goal. Baby Boomers and test-prepping school kids
+                alike want to challenge themselves and find ways to stay sharp.
+                MentalGameTime.com acts like a treadmill for the mind.
+                MentalGameTime.com presents quick mental activities that help
+                keep your mind in shape. Activities include solving simple math
+                problems, simultaneous counting, finding differences between
+                images, reading classic literature out loud, memorization and
+                recall activities and more. You can also play fun games like
+                Sudoku, the number puzzle game which has become an extremely
+                popular feature in U.S. Newspapers, as well as crossword and
+                word search. We all know as we grow older our bodies change and
+                it becomes important to regularly exercise to maintain health
+                and fitness. Our minds are no different. "Use it or lose it," as
+                the saying goes. New research indicates mental acuity may be
+                strengthened, like muscles, with brain exercises. And these
+                exercises must be done regularly to retain the benefits long
+                term.
+              </p>
+            </div>
+          </div>
+          {/* <div className="relative my-6 flex items-center h-[41px]">
+            <a href="">
+              <img
+                src="get-started-btn.svg"
+                alt="get-started-btn"
+                className="absolute top-0 left-0 right-0 mx-auto z-100"
+              />
+            </a>
+            <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
+          </div> */}
+        <img src="desktop/get-started-blue.svg" alt="get started button" className="my-16"/>
         </div>
       </div>
-
-      <img src="maze.svg" alt="maze" className="my-10" />
-
-      <div className="mt-4 mx-4">
-        <div className="mx-2 mt-4">
-          <span className="text-[21px] leading-tight">
-            Keep Your Mind in Shape
-          </span>
-          <p className="mt-2">
-            The MentalGameTime.com exercises are designed to stimulate your
-            brain. Solving simple math and logic problems quickly, and reading
-            aloud have been proven to be effective methods of achieving this
-            goal. Baby Boomers and test-prepping school kids alike want to
-            challenge themselves and find ways to stay sharp. MentalGameTime.com
-            acts like a treadmill for the mind. MentalGameTime.com presents
-            quick mental activities that help keep your mind in shape.
-            Activities include solving simple math problems, simultaneous
-            counting, finding differences between images, reading classic
-            literature out loud, memorization and recall activities and more.
-            You can also play fun games like Sudoku, the number puzzle game
-            which has become an extremely popular feature in U.S. Newspapers, as
-            well as crossword and word search. We all know as we grow older our
-            bodies change and it becomes important to regularly exercise to
-            maintain health and fitness. Our minds are no different. "Use it or
-            lose it," as the saying goes. New research indicates mental acuity
-            may be strengthened, like muscles, with brain exercises. And these
-            exercises must be done regularly to retain the benefits long term.
-          </p>
-        </div>
-      </div>
-
-      <div className="relative my-6 flex items-center h-[41px]">
-        <a href="">
-          <img
-            src="get-started-btn.svg"
-            alt="get-started-btn"
-            className="absolute top-0 left-0 right-0 mx-auto z-100"
-          />
-        </a>
-        <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
-      </div>
-
-      
-
-      {/* Define Routes */}
     </div>
   );
 }
