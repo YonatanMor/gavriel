@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/gavriel" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
 
@@ -17,19 +17,19 @@ function App() {
           </li>
           <li>|</li>
           <li>
-            <Link to="/members">Members Area</Link>
+            <Link to="/gavriel/members">Members Area</Link>
           </li>
           <li>|</li>
           <li>
-            <Link to="/terms">Terms & Conditions</Link>
+            <Link to="/gavriel/terms">Terms & Conditions</Link>
           </li>
           <li>|</li>
           <li>
-            <Link to="/privacy">Privacy</Link>
+            <Link to="/gavriel/privacy">Privacy</Link>
           </li>
           <li>|</li>
           <li>
-            <Link to="/billing-support">Billing Support</Link>
+            <Link to="/gavriel/billing-support">Billing Support</Link>
           </li>
         </ul>
       </div>
