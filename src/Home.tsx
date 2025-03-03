@@ -67,33 +67,31 @@ export default function Home() {
       {/* hero */}
       <div>
         <div className="relative">
-          <img src="hero.svg" alt="hero mobile" className="block md:hidden" />
+          <img src="hero.png" alt="hero mobile" className="block md:hidden" />
           <img
-            src="desktop/hero.svg"
+            src="hero.png"
             alt="hero desktop"
             className="hidden md:block w-screen"
           />
-          <div className="absolute left-10 top-2 md:top-20">
+          <div className="absolute left-10 -top-2 md:top-20">
             <div>
-              <span className="text-[42px] md:text-[70px] text-white">
+              <span className="text-[32px] md:text-[70px] text-white">
                 Fun Games{" "}
               </span>
               <br />
-              <span className="text-[24px] md:text-[70px] leading-8 text-white">
+              <span className="text-[24px] md:text-[70px] md:leading-2 leading-0 text-white">
                 for a Healthy Brain
               </span>
             </div>
 
             <div className="block md:hidden">
-              <span className="text-[18px] text-white leading-tight">
+              <span className="text-[14px] block text-white leading-tight">
                 Join the community
               </span>
-              <br />
-              <span className="text-[18px] text-white leading-tight">
+              <span className="text-[14px] block text-white leading-tight">
                 that keeps your mind
               </span>
-              <br />
-              <span className="text-[18px] text-white leading-tight">
+              <span className="text-[14px] block text-white leading-tight">
                 sharp and engaged.
               </span>
             </div>
@@ -111,7 +109,7 @@ export default function Home() {
           <img
             src="get-started-white.svg"
             alt="get-started-white"
-            className="absolute left-[100px] top-48 w-39 block md:hidden"
+            className="absolute right-2 top-18 w-39 block md:hidden"
           />
           <img
             src="desktop/get-started-white.svg"
@@ -168,7 +166,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <img src="maze.svg" alt="maze" className="my-10" />
+        <img src="maze.png" alt="maze" className="my-10" />
         <div className="mt-4 mx-4">
           <div className="mx-2 mt-4">
             <span className="text-[21px] leading-tight">
@@ -257,7 +255,7 @@ export default function Home() {
 
         <div className="w-[60%]">
           <img
-            src="desktop/maze.svg"
+            src="maze.png"
             alt="maze"
             className="my-10 w-full object-cover"
           />
