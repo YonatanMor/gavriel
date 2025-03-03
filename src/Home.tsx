@@ -15,9 +15,15 @@ export default function Home() {
           className="h-[48px]"
         />
         <div className="flex ml-8">
-          <img src="join-header-btn.svg" alt="" className="mb-4 w-[60px]" />
-          <img src="sign-in-pic.svg" alt="" className="mb-4 ml-2 " />
-          <img src="Sign In-writing.svg" alt="" className="mb-4 ml-2" />
+          <a href="#" className="">
+            {/* Replace # with the actual link to join*/}
+            <img src="join-header-btn.svg" alt="" className="mb-4 w-[60px]" />
+          </a>
+          <a href="#" className="flex">
+            {/* Replace # with the actual link to sign-in*/}
+            <img src="sign-in-pic.svg" alt="" className="mb-4 ml-2 " />
+            <img src="Sign In-writing.svg" alt="" className="mb-4 ml-2" />
+          </a>
         </div>
       </div>
 
@@ -29,48 +35,37 @@ export default function Home() {
           className="absolute top-[27px] left-[58px] z-100"
         />
         <div className="flex items-center mb-[8px]">
-          <ul className="flex justify-center mx-10 gap-10 text-[19px]">
+          <ul className="flex justify-center mx-10 gap-6 text-[19px]">
             <li>
-              Home
+              <a href="#">Home</a>
+              {/* Replace # with the actual link to home*/}
             </li>
             <li>
-              Members Area
+              <a href="">Members Area</a>
+              {/* Replace # with the actual link to Members Area*/}
             </li>
             <li>
-              Terms & Conditions
+              <a href="">Terms & Conditions</a>
+              {/* Replace # with the actual link to Terms & Conditions*/}
             </li>
             <li>
-              Privacy
+              <a href="">Privacy</a>
+              {/* Replace # with the actual link to Privacy*/}
             </li>
             <li>
-              Billing Support
+              <a href="">Billing Support</a>
+              {/* Replace # with the actual link to Billing Support*/}
             </li>
-            {/* <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/members">Members Area</Link>
-            </li>
-            <li>
-              <Link to="/terms">Terms & Conditions</Link>
-            </li>
-            <li>
-              <Link to="/privacy">Privacy</Link>
-            </li>
-            <li>
-              <Link to="/billing-support">Billing Support</Link>
-            </li> */}
           </ul>
           {/* <div className="flex h-40 items-center ml-8 bg-red-600"> */}
           <img src="desktop/join-header-btn.svg" alt="" className="mt-2 mx-2" />
           <img src="desktop/sign-in-pic.svg" alt="" className=" ml-2" />
           <img
             src="desktop/Sign In-writing.svg"
-            alt=""
+            alt="Sign In-writing"
             className=" ml-1 mr-10"
           />
         </div>
-        {/* </div> */}
       </div>
 
       {/* hero */}
@@ -221,7 +216,11 @@ export default function Home() {
       {/* content desktop */}
       <div className="hidden justify-around md:flex">
         <div className="flex flex-col gap-4 w-[30%] mt-10">
-          <img src="chalkboard.svg" alt="chalkboard" className="w-full object-cover" />
+          <img
+            src="chalkboard.svg"
+            alt="chalkboard"
+            className="w-full object-cover"
+          />
 
           <div className="mt-10 ">
             <div className="mx-2 mt-4">
@@ -261,7 +260,11 @@ export default function Home() {
         </div>
 
         <div className="w-[60%]">
-          <img src="desktop/maze.svg" alt="maze" className="my-10 w-full object-cover" />
+          <img
+            src="desktop/maze.svg"
+            alt="maze"
+            className="my-10 w-full object-cover"
+          />
           <div className="mt-4">
             <div className=" mt-4">
               <span className="text-3xl leading-tight">
@@ -301,7 +304,14 @@ export default function Home() {
             </a>
             <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
           </div> */}
-        <img src="desktop/get-started-blue.svg" alt="get started button" className="my-16"/>
+          <a href="#">
+            {/* Replace # with the actual link to get started*/}
+            <img
+              src="desktop/get-started-blue.svg"
+              alt="get started button"
+              className="my-16"
+            />
+          </a>
         </div>
       </div>
     </div>
