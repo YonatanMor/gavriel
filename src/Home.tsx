@@ -1,9 +1,5 @@
 // import { Link } from "react-router-dom";
 
-// why the diff of size in the header nav manu?
-// when build/deploy/commit+push
-// router jams up the application
-
 export default function Home() {
   return (
     <div className="w-screen">
@@ -294,16 +290,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-          {/* <div className="relative my-6 flex items-center h-[41px]">
-            <a href="">
-              <img
-                src="get-started-btn.svg"
-                alt="get-started-btn"
-                className="absolute top-0 left-0 right-0 mx-auto z-100"
-              />
-            </a>
-            <div className="h-[6px] bg-gray-400 w-full absolute top-[50%] transform -translate-y-1/2"></div>
-          </div> */}
           <a href="#">
             {/* Replace # with the actual link to get started*/}
             <img
